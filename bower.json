@@ -1,0 +1,22 @@
+{
+  "name": "IS219-Project1",
+  "version": "1.0.0",
+  "authors": [
+    "Atika Latif",
+    "Erick Allas",
+  ],
+  "main": "sever.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3^",
+    "animate.css": "~3.2.6^"
+  }
+}

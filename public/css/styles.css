@@ -1,0 +1,91 @@
+a.silly-text {
+    font-family: 'Georgia';
+    color: black;
+}
+
+}
+
+.wrap {
+    margin: 150px auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.sub a {
+    color: #fff;
+    background: #272727;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: arial, serif;
+    font-weight: bold;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -border-radius: .5em;
+}
+
+.menu {
+    line-height: 30px;
+}
+
+.header {
+    height: 60px;
+    background-color: #bf0000;
+}
+
+label {
+    font-size: 30px;
+}
+
+.box a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.boxhover a:hover {
+    color: lightsalmon;
+}
+
+a {
+    text-align: center;
+}
+
+a:hover {
+    color: dodgerblue;
+}
+
+.container {
+    padding: 2em;
+    line-height: 15px;
+}
+
+.spacing {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loader {
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    list-style: none;
+    z-index: 1000;
+}
+
+#transparent-background {
+    opacity: 0.4;
+    content: 'Your page is loading...';
+}
+
+}

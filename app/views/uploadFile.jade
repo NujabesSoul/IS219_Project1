@@ -1,0 +1,15 @@
+extends ./base
+
+block content
+  div.wrap
+   h1.spacing.animated.fadeIn=title
+
+   form#form.pure-form.pure-form-aligned(action='/upload' method='POST' enctype="multipart/form-data")
+      fieldset
+       div
+       center
+          label Upload CSV
+          ul
+          input(type='file', name='csvFile', id='csvFile')
+          div
+          button.pure-button.pure-button-primary(type='submit') Submit

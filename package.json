@@ -1,0 +1,27 @@
+{
+  "name": "IS219_Project1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "tester",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "csv",
+    "mongodb",
+    "node"
+  ],
+  "author": "Erick Allas & Atika Latif",
+  "dependencies": {
+    "csv": "^0.4.1",
+    "express": "^4.12.3",
+    "jade": "^1.9.2",
+    "mongoose": "^3.8.25",
+    "morgan": "^1.5.2",
+    "multer": "^0.1.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.4"
+  }
+}
